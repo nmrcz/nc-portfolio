@@ -1,7 +1,6 @@
 'use client'
 import { useHorizontalScroll } from "./useSideScroll";
 import Image from 'next/image'
-import Modal from "./modal";
 import Card from "./card";
 
 export default function Home() {

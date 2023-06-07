@@ -17,7 +17,7 @@ export default function Home() {
             </h1>
 
             <p className="mt-4 max-w-md leading-normal text-slate-400">
-              Hey, I'm Nomar and have always had affinity for technology and how it works.
+              Hey, I&apos;m Nomar and have always had affinity for technology and how it works.
               From there, I dove into personal projects, got a computing science degree, and here I am now!
             </p>
             <p className="mt-4 max-w-md leading-normal text-slate-400 ">

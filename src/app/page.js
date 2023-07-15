@@ -118,7 +118,7 @@ export default function Home() {
               type={"NextJS App"} 
               visual={"/previews/portfolio-preview.jpg"} 
               tags={["Next.js", "React", "JavasScript", "Tailwind"]} 
-              github={"https://github.com/nmrchvz/portfolio"}
+              github={"https://github.com/nmrcz/nc-portfolio"}
               description={"This is what you're looking at right now! My portfolio that was created using Next.js and deployed in Vercel."} 
             />
 

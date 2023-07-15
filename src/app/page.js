@@ -5,11 +5,11 @@ import Card from "./card";
 
 export default function Home() {
   const scrollRef = useHorizontalScroll();
-  const frontEnd = Array("HTML", "CSS", "Javascript", "Typescript", "React", "Bootstrap", "Tailwind")
-  const backEnd = Array("Mongodb", "Firebase", "Python", "Java", "Django")
+  const frontEnd = Array("HTML5", "CSS3", "XML", "Javascript", "Typescript", "React", "Bootstrap", "Tailwind")
+  const backEnd = Array("Mongodb", "PHP","Firebase", "Python", "Java", "Django", "C", "C++", "SQL", "BashShell")
 
   return (
-      <div className="smooth-scroll-wrapper mx-auto min-h-screen max-w-screen-xl px-32 py-16 font-sans relative overflow-hidden">
+      <div className="smooth-scroll-wrapper mx-auto min-h-screen max-w-screen-xl px-32 py-12 font-sans relative overflow-hidden">
         <header className="lg:flex ">
           <div className="lg:w-1/2">
             <h1 className="mt-4 text-6xl font-bold tracking-tight text-slate-200">
@@ -17,13 +17,13 @@ export default function Home() {
             </h1>
 
             <p className="mt-4 max-w-md leading-normal text-slate-400">
-              Hey, I&apos;m Nomar and have always had affinity for technology and how it works.
-              From there, I dove into personal projects, got a computing science degree, and here I am now!
+              Hi, I&apos;m Nomar and have always had affinity for software for long as I can remember.
+              I am currently learning Next.js (and React) to develop my own eCommerce webpage for my art.
             </p>
-            <p className="mt-4 max-w-md leading-normal text-slate-400 ">
-              view <span className="text-cyan-400 underline">resumé</span>
-              {/**              When I am not on the computer, I am probably creating art for friends and family, playing music I hear in video 
-              games, or taking care of two playful cats. */}
+            
+            <p className="mt-4 max-w-md leading-normal text-slate-400">
+              When I am not on the computer, I am probably creating artwork for friends and family, 
+              playing music I hear in video games or films on the piano, or taking care of two rascal cats.
             </p>
 
             <u className="my-4 flex items-center list-none">
@@ -101,7 +101,7 @@ export default function Home() {
               visual={"/previews/bettersocial-preview.png"} 
               tags={["Python", "Django", "Heroku", "HTML", "CSS", "JavasScript"]} 
               github={"https://github.com/CMPUT404-F21T0/CMPUT404-Project-BetterSocial"}
-              description={"A social network platform that allows users to post, share, like, and comment on content that is connected, local and peer-to-peer, to other social networks with similar API structures"} 
+              description={"A social network platform that allows users to post, share, like, and comment on content that is connected, local and peer-to-peer, to other social networks with similar API structures."} 
             />
 
             <Card 
@@ -119,7 +119,7 @@ export default function Home() {
               visual={"/previews/portfolio-preview.jpg"} 
               tags={["Next.js", "React", "JavasScript", "Tailwind"]} 
               github={"https://github.com/nmrchvz/portfolio"}
-              description={"This is what you're looking at right now! My portfolio that was created using Next.js and deployed in Vercel"} 
+              description={"This is what you're looking at right now! My portfolio that was created using Next.js and deployed in Vercel."} 
             />
 
           </container>

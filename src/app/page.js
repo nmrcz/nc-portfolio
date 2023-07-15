@@ -109,7 +109,7 @@ export default function Home() {
               type={"React App"} 
               visual={"/previews/quikdex-preview.gif"} 
               tags={["React", "Bootstrap", "JavasScript", "pokeapi.co"]} 
-              github={"https://github.com/nmrchvz/quik-dex"}
+              github={"https://github.com/nmrcz/poke-dex"}
               description={"A program that utilizes the react framework and public pokeapi.co API to visualize more than 900+ pokémon data such as type, abilities, description and more."} 
             />
 

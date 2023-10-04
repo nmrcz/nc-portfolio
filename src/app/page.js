@@ -17,16 +17,20 @@ export default function Home() {
             </h1>
 
             <p className="mt-4 max-w-md leading-normal text-slate-400">
-              Hi, I&apos;m Nomar and have always had affinity for software for long as I can remember.
-              I am currently learning Next.js (and React) to develop my own eCommerce webpage for my art.
+              Hi, I&apos;m Nomar and I love problem solving with a creative perspective.
+              I am currently learning Next.js (and React) to slowly work on a eCommerce website for my digital art.
             </p>
             
             <p className="mt-4 max-w-md leading-normal text-slate-400">
-              When I am not on the computer, I am probably creating artwork for friends and family, 
-              playing music I hear in video games or films on the piano, or taking care of two rascal cats.
+              When I am not on the computer, I am probably creating artwork for loved ones, 
+              playing music I hear in video games on the piano, or enjoying outdoor activities!
             </p>
 
-            <u className="my-4 flex items-center list-none">
+            <p className="mt-4 mb-2 max-w-md leading-normal text-slate-400">
+              Contact me here:
+            </p>
+
+            <u className="mb-4 flex items-center list-none">
               <li className="mr-5 text-xs">
                 <a className="block transition hover:text-slate-800" href="https://www.linkedin.com/in/nomar-chavez-791361250/" target="_blank" rel="noreferrer">
                   <span className="sr-only">Linkedin</span>
@@ -111,6 +115,15 @@ export default function Home() {
               tags={["React", "Bootstrap", "JavasScript", "pokeapi.co"]} 
               github={"https://github.com/nmrcz/poke-dex"}
               description={"A program that utilizes the react framework and public pokeapi.co API to visualize more than 900+ pokémon data such as type, abilities, description and more."} 
+            />
+
+            <Card 
+              title={"Crime Data Visualizer"} 
+              type={"Python App"} 
+              visual={"/previews/crime-preview.png"} 
+              tags={["Python", "Matplotlib", "SQLite"]} 
+              github={"https://github.com/adriancleung/cmput291-assignment4o"}
+              description={"A program that utilizes DBMS to visualize the crime types related to the population and neighbourhoods within the city of Edmonton."} 
             />
 
             <Card 
